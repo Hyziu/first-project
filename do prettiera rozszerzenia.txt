@@ -42,4 +42,11 @@ git push
 
 Github repozytorium
 
+jeśli zmieniasz kod to potem:
+git add .
+git commit -m"nazwa"
+git push
+
+wtedy zmiany wchodzą
+
 
