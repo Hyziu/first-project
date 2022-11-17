@@ -34,3 +34,12 @@ ctrl+alt + strzałka góra/ dół masz większe zazanczenie
 premier
 live server
 style.scss
+
+git init
+git add .
+git commit -m"nazwa"
+git push
+
+Github repozytorium
+
+
