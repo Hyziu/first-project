@@ -1,0 +1,36 @@
+{
+
+    "editor.formatOnSave": true,
+  
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  
+    "[javascript]": {
+  
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  
+    },
+  
+    "livePugCompiler.savePath": "/",
+  
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+  
+    "terminal.integrated.tabs.location": "left",
+  
+    "terminal.integrated.tabs.enabled": false,
+  
+    "pugbeautify.omitDiv": true,
+  
+    "javascript.updateImportsOnFileMove.enabled": "always"
+  
+  }
+
+
+
+
+
+https://www.w3schools.com/css/css3_box-sizing.asp
+ctrl+alt + strzałka góra/ dół masz większe zazanczenie 
+
+premier
+live server
+style.scss

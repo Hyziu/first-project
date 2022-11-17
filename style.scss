@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.nav {
+  background-color: red;
+  list-style-type: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+.nav_element {
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  color: white;
+  //zmienia ci wygląd kursora po najechaniu na hover
+  cursor: pointer;
+  //jak najedziesz myszką podświetla się na dany kolor
+  &:hover {
+    background-color: pink;
+  }
+} //to ci zmienia wygląd strony w zależności od wielkości ekranu
+@media (min-width: 900px) {
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    > :first-child {
+      border-left: 1px solid rgb(0, 0, 0);
+      background-color: grey;
+      &:hover {
+        background-color: pink;
+      }
+    }
+  }
+  .nav_element {
+    padding: 10px 25px; // jak napiszesz 2 wartości to pierwsza jest do góry i dołu a druga do boków
+    border: none;
+    border-right: 1px solid rgb(0, 0, 0);
+  }
+}
