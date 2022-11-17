@@ -30,6 +30,7 @@
 
 https://www.w3schools.com/css/css3_box-sizing.asp
 ctrl+alt + strzałka góra/ dół masz większe zazanczenie 
+ctrl + shift + l - np edytujesz znacznik <p> w całym kodzie
 
 premier
 live server
